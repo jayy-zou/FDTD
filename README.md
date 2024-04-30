@@ -24,21 +24,21 @@ Follow these steps to get your development environment running:
 
 2. **Create and activate the Conda environment**:
    Use the `environment.yml` file to create an Anaconda environment that replicates the project's setup:
-
+   ```
    conda env create -f environment.yml
    conda activate your_env_name
-
+   ```
 3. **Launch Jupyter Notebook**:
    Once the environment is active, start the Jupyter Notebook to access the project:
-
+   ```
    jupyter notebook
-
+   ```
    Navigate to the notebook file in the Jupyter interface that opens in your browser to start working with the code.
 
 ### Deactivating the Environment
 
 When you are done working with the notebook, you can deactivate the virtual environment by running:
-
+   ```
    conda deactivate
-
+   ```
 This will return you to your base terminal environment.
