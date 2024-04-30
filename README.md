@@ -16,9 +16,10 @@ Follow these steps to get your development environment running:
 
 1. **Clone the repository**:
    Clone the project to your local machine using the following commands:
-
+   '''
    git clone https://github.com/jayy-zou/FDTD.git
    cd FDTD
+   '''
 
 2. **Create and activate the Conda environment**:
    Use the `environment.yml` file to create an Anaconda environment that replicates the project's setup:
