@@ -1,6 +1,6 @@
 # Nonlinear FDTD from Scratch
 
-This project provides a one-dimensional nonlinear Finite-Difference Time-Domain (FDTD) method developed from scratch as a proof of concept. It serves to illustrate the basic principles and key outcomes associated with FDTD, focusing on topics like electric and absorbing boundary conditions, linear and Chi 2 dielectric responses. The notebook is designed to offer users a preliminary understanding of FDTD techniques, enabling them to grasp essential concepts and observe phenomena such as second harmonic generation. While not built for efficiency and robustness, this implementation aims to give a natural starting point for those new to the field, aiming to facilitate a deeper exploration of wave phenomena in nonlinear optical media.
+This project provides a one-dimensional nonlinear Finite-Difference Time-Domain (FDTD) method developed from scratch as a proof of concept. It serves to illustrate the basic principles and key outcomes associated with FDTD, focusing on topics like electric and absorbing boundary conditions, linear and second-order dielectric responses. The notebook is designed to offer users a preliminary understanding of FDTD techniques, enabling them to grasp essential concepts and observe phenomena such as second harmonic generation. While not built for efficiency and robustness, this implementation aims to give a natural starting point for those new to the field, aiming to facilitate a deeper exploration of wave phenomena in nonlinear optical media.
 
 ## Getting Started
 
@@ -16,7 +16,8 @@ Follow these steps to get your development environment running:
 
 1. **Clone the repository**:
    Clone the project to your local machine using the following commands:
-   '''
+
+   '''bash
    git clone https://github.com/jayy-zou/FDTD.git
    cd FDTD
    '''
